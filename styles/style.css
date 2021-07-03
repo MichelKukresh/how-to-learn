@@ -13,14 +13,74 @@
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
-  /* выше установили ограничения для секции */
+  position: relative;
+  display: flex;
+  align-items: center;
+    /* выше установили ограничения для секции */
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
+.header__logo {
+  height: 32px;
+  width: 183px;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  border: 1px solid red;
+  /* выше установили размер 1 элемента брифа */
+}
+
+.header__title {
+  width: 730px;
+  position: absolute;
+  left: 64px;
+   border: 1px solid red;
+  font-size: 100px;
+  /* выше установили размер 2 элемента брифа */
+}
+
+.header__subtitle {
+  position: absolute;
+    left: 64px;
+    bottom: 30px;
+  width: 388px;
+  font-size: 16px;
+
+  border: 1px solid red;
+  /* выше установили размер 3 элемента брифа */
+}
+
+.header__link {
+  font-size: 16px;
+  border: 1px solid red;
+  color: blue;
+
+  /* выше установили размер 4 элемента брифа */
+}
+
+.header__main-illustranion {
+  height: 608px;
+  width: 765px;
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  border: 1px solid red;
+  z-index: 1;
+  /* выше установили размер 5 элемента брифа */
+}
+
 .header__square-pic {
+  position: absolute;
+  top: 64px;
+  right: 0px;
   height: 568px;
   width: 568px;
+  background-color: blue;
+
+  border: 1px solid red;
+  /* выше установили размер 6 элемента брифа, приведен пример двух селекторов, чтобы вы вспомнили запись элемента */
 }
+
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
