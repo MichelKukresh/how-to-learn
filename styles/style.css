@@ -16,6 +16,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  background-color: #f2f2f2;
     /* выше установили ограничения для секции */
 }
 
@@ -26,6 +27,8 @@
   top: 30px;
   left: 64px;
   border: 1px solid red;
+  z-index: 2;
+  margin: 0;
   /* выше установили размер 1 элемента брифа */
 }
 
@@ -34,7 +37,10 @@
   position: absolute;
   left: 64px;
    border: 1px solid red;
-  font-size: 100px;
+   line-height: 96px;
+  font-size: 102px;
+  z-index: 2;
+  margin: 0;
   /* выше установили размер 2 элемента брифа */
 }
 
@@ -43,9 +49,11 @@
     left: 64px;
     bottom: 30px;
   width: 388px;
-  font-size: 16px;
-
+  line-height: 18px;
+  font-size: 18px;
+  z-index: 2;
   border: 1px solid red;
+  margin: 0;
   /* выше установили размер 3 элемента брифа */
 }
 
@@ -53,6 +61,7 @@
   font-size: 16px;
   border: 1px solid red;
   color: blue;
+  margin: 0;
 
   /* выше установили размер 4 элемента брифа */
 }
@@ -82,10 +91,137 @@
 
 
 
-/* и элемента с модификатором вида ключ-значение */
+/*!!! не нашел дл чего!!! и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.description {
+  border: 1px solid red;
+  margin-left: 64px;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.two-columns {
+  display: flex;
+  margin: 0;
+  /*width: 80%;*/
+  justify-content: space-between;
+
+}
+.two-columns__brief {
+  border: 1px solid red;
+  width: 175px;
+}
+.two-columns__brief_text {
+  line-height: 21px;
+  font-size: 18px;
+  color: blue;
+}
+
+.two-columns__main-text {
+  border: 1px solid red;
+  width: 80%;
+  min-width: 784px;
+
+}
+.two-columns__paragraph {
+  border: 1px solid red;
+  margin-top: 30px;
+
+}
+.two-columns__paragraph_text {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+}
+.two-columns__paragraph_del-margen {
+  border: 1px solid red;
+  margin-top: 0px;
+
+}
+
+.two-columns__paragraph_text-bold {
+  font-weight: bold;
+}
+
+.two-columns__span-accent {
+
+  border: 1px solid red;
+}
+
+.two-columns__paragraph.two-columns__paragraph_del-margen {
+  margin-top: 0;
+}
+.two-columns__margin0 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.digits {
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 64px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+
+}
+
+.section-title {
+  border: 1px solid red;
+  width: 60%;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+.section-subtitle {
+  border: 1px solid red;
+  width: 60%;
+  text-align: center;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+.table {
+  display: flex;
+  border: 1px solid red;
+  width: 1100px;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  justify-content: space-between;
+
+
+}
+.table__cel {
+  border: 1px solid red;
+  width: 250px;
+  margin-top: 60px;
+}
+.table__heading {
+  border: 1px solid red;
+  margin-bottom: 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+.table__text {
+  border: 1px solid red;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.table__text_margin {
+  margin-top: 20px;
 }
