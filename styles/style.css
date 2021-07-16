@@ -20,15 +20,19 @@
   /* выше установили ограничения для секции */
 }
 
-.header__logo {
+.logo {
+
+  z-index: 2;
+  margin: 0;
+  /* выше установили размер 1 элемента брифа */
+}
+
+.logo_place-heder {
   height: 32px;
   width: 183px;
   position: absolute;
   top: 30px;
   left: 64px;
-  z-index: 2;
-  margin: 0;
-  /* выше установили размер 1 элемента брифа */
 }
 
 .header__title {
@@ -136,8 +140,8 @@
 .two-columns__paragraph_text-bold {
   font-weight: bold;
 }
-.two-columns__span-accent {
-}
+/*.two-columns__span-accent {
+}*/
 
 .two-columns__paragraph.two-columns__paragraph_del-margen {
   margin-top: 0;
