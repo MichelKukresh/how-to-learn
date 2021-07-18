@@ -27,7 +27,7 @@
   /* выше установили размер 1 элемента брифа */
 }
 
-.logo_place-heder {
+.logo_place_header {
   height: 32px;
   position: absolute;
   top: 30px;
@@ -264,35 +264,35 @@
   padding-bottom: 90px;
 }
 
-.section-title_dark {
+.section-title_theme_dark {
   margin-top: 90px;
   color:white;
   z-index: 2;
 }
-.section-subtitle_dark {
+.section-subtitle_theme_dark {
   margin-top: 20px;
   color:white;
   z-index: 2;
 }
 
-.table_dark {
+.table_theme_dark {
   color:white;
   z-index: 2;
 }
 
-.table__cell_dark {
+.table__cell_theme_dark {
   width: 200px;
   color:white;
   z-index: 2;
   margin-top: 80px;
 }
 
-.table__heading_dark {
+.table__heading_theme_dark {
   color:white;
   z-index: 2;
 }
 
-.table__text_dark {
+.table__text_theme_dark {
   color:white;
   z-index: 2;
 }
@@ -329,14 +329,12 @@
   flex-direction: column;
 }
 
-.footer__column_content-copyright {
+.footer__column_content_copyright {
   flex-basis: 711px;
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
 }
 
-.logo_place-footer {
+.logo_place_footer {
   height: 35px;
 }
 
@@ -349,7 +347,7 @@
   color: white;
 }
 
-.footer__column-heading {
+.footer__column_heading {
   line-height: 30px;
   font-size: 18px;
   font-weight: bold;
@@ -358,26 +356,26 @@
   margin-top: 0px;
 }
 
-.footer__column-heading_string {
+.footer__column_heading_string {
   display: flex;
   margin-bottom: 5px;
   color: white;
 }
 
-.footer__column-links {
+.footer__column_links {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
   color: white;
 }
 
-.footer__social-icon {
+.footer__social_icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
 }
 
-.footer__column-link {
+.footer__column_link {
   margin: 0px;
   line-height: 30px;
   font-size: 18px;
