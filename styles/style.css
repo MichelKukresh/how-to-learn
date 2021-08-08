@@ -17,14 +17,12 @@
   display: flex;
   align-items: center;
   background-color: #f2f2f2;
-  /* выше установили ограничения для секции */
 }
 
 .logo {
   z-index: 2;
   margin: 0;
   width: 183px;
-  /* выше установили размер 1 элемента брифа */
 }
 
 .logo_place_header {
@@ -36,15 +34,12 @@
 
 .header__title {
   width: 730px;
-  /*position: absolute;
-  left: 64px;*/
   line-height: 96px;
   font-size: 102px;
   font-weight: bold;
   z-index: 2;
   margin: 0;
   margin-left: 64px;
-  /* выше установили размер 2 элемента брифа */
 }
 
 .header__subtitle {
@@ -57,7 +52,6 @@
   z-index: 2;
   font-weight: normal;
   margin: 0;
-  /* выше установили размер 3 элемента брифа */
 }
 
 .header__link {
@@ -74,7 +68,6 @@
   bottom: 0px;
   right: 0px;
   z-index: 1;
-  /* выше установили размер 5 элемента брифа */
 }
 
 .header__square-pic {
@@ -84,11 +77,9 @@
   height: 568px;
   width: 568px;
   background-color: #2f80ed;
-  /* выше установили размер 6 элемента брифа, приведен пример двух селекторов, чтобы вы вспомнили запись элемента */
 }
 
 .description {
-  /*margin-left: 64px;*/
   margin-top: 100px;
   display: flex;
   justify-content: space-around;
@@ -136,7 +127,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*margin-left: 64px;*/
   margin-top: 100px;
   margin-bottom: 100px;
 }
@@ -196,8 +186,6 @@
   background-color: #f2f2f2;
   display: flex;
   flex-direction: column;
-  /*justify-content: center;*/
-  /*margin-left: 64px;*/
   align-items: center;
 }
 
@@ -218,11 +206,11 @@
   z-index: 2;
   margin-top: 100px;
   margin-bottom: 0px;
-  /*position: absolute;*/
 }
 
 .feynman__subtitle {
   margin-top: 70px;
+  margin-bottom: 0px;
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
@@ -247,8 +235,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  /*margin-left: 64px;*/
-  /*margin-top: 100px;*/
   padding-bottom: 90px;
 }
 
@@ -365,4 +351,14 @@
   font-weight: normal;
   color: white;
   text-decoration: none;
+}
+
+.footer__column_info {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_social {
+  display: flex;
+  flex-direction: column;
 }
