@@ -332,11 +332,9 @@
 }
 
 .footer__column-links {
-  line-height: 30px;
-  font-size: 18px;
-  font-weight: normal;
-  color: white;
-  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
 }
 
 .footer__social-icon {
@@ -351,14 +349,4 @@
   font-weight: normal;
   color: white;
   text-decoration: none;
-}
-
-.footer__column_info {
-  display: flex;
-  flex-direction: column;
-}
-
-.footer__column_social {
-  display: flex;
-  flex-direction: column;
 }
